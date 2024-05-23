@@ -12,22 +12,39 @@ header{
 
     
 }
+
+.gastro {
+    font-size: 120%;
+    text-align: center;
+    padding: 1.5%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    border-radius: 15px;
+    margin-bottom: 2.5%;
+
+}
+
+
 #logo{
-    width: 110px;
-    height: 115px;
+    width: 115px;
+    height: 105px;
     margin-top: 1%;
     padding-left: 1%;
     border-radius: 10%;
     box-shadow: 3px 3px 3px rgb(112, 30, 145);
 }
-#nombre{
+#nombre {
     position: absolute;
     font-family: initial;
     top: 50px;
-    left: 120px;
+    left: 40%;
     color: blueviolet;
-    font-size: larger;
+    font-size: 200%;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 .barras{
     position: absolute;
     top: 10px;
@@ -287,3 +304,28 @@ flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
  }
+
+.platillos {
+    padding: 1.5%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    border-radius: 15px;
+    margin-bottom: 2.5%;
+    font-size: 150%;
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 180%;
+}
+
+.contenido {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+}
