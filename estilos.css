@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 
 }
 
 body {
-    background-color: rgb(228, 228, 0225)
+    background-color: rgb(233, 233, 203)
 }
 
 header {
@@ -40,7 +45,7 @@ header {
 
 #nombre {
     position: absolute;
-    font-family: initial;
+    font-family: "Playwrite NG Modern", cursive;
     top: 50px;
     left: 40%;
     color: blueviolet;
@@ -55,7 +60,7 @@ header {
     text-align: right;
     margin-left: 67%;
     font-size: 25px;
-    font-family: Monkey Pirates;
+    font-family: "Playwrite NG Modern", cursive;
     color: rgb(225, 236, 252);
 }
 
@@ -78,7 +83,7 @@ header {
 
 */
 p {
-    font-family: unset;
+    font-family: "Playwrite NG Modern", cursive;
     color: rgb(0, 0, 0);
     top: 10%;
     font-size: small;
@@ -100,9 +105,9 @@ p {
 /*/////////////cartas/////////////////*/
 
 .carta {
-    width: 230px;
+    width: 450px;
     position: relative;
-    height: 290px;
+    height: 350px;
     margin: 20px;
 
 
@@ -126,7 +131,7 @@ p {
 
 .carta .frontal .ima {
     position: absolute;
-    width: 230px;
+    width: 440px;
     height: 100%;
     object-fit: cover;
 
@@ -179,7 +184,7 @@ p {
     letter-spacing: 1px;
     color: rgb(255, 255, 255);
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Playwrite NG Modern", cursive;
     font-size: 9px;
 }
 
@@ -264,7 +269,7 @@ p {
 }
 
 .menu-v {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Playwrite NG Modern", cursive;
     position: absolute;
     display: none;
     list-style: none;
@@ -333,8 +338,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
-    padding: 7%;
+    padding: 2%;
     border-radius: 15%;
 }
 
@@ -343,7 +347,7 @@ form {
     box-shadow: 0 0 20px rgba(233, 222, 222, 0.2);
     border-radius: 20px;
     text-align: center;
-    width: 400px;
+    width: 800px;
     background-color: #dba7c4;
 }
 
@@ -393,7 +397,7 @@ input {
     background-color: #e65db8
 }
 
-input, textarea{
+input,textarea {
     padding: 3px 10px;
     border-radius: 25px;
     margin-bottom: 8px;
@@ -405,6 +409,7 @@ input, textarea{
     text-align: center;
 
 }
+
 #cuadro {
     width: 25%;
     height: 25%;
