@@ -229,8 +229,6 @@ p {
 }
 
 
-
-
 .barras {
     max-width: 150px;
     color: aliceblue;
@@ -340,11 +338,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .form-content {
-    width: 100%;
-    max-width: 450px;
     background-color: rgb(199, 140, 238);
     padding: 50px 60px 70px;
     text-align: left;
@@ -356,20 +353,10 @@ p {
     margin-bottom: 60px;
     color: black;
     position: relative;
+    text-align: center;
 
 }
 
-.form-content h4::after {
-    content: '';
-    width: 30px;
-    height: 4px;
-    border-radius: 3px;
-    background: blue;
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 .input-field {
     background-color: rgb(197, 113, 236);
@@ -422,11 +409,7 @@ input::placeholder{
     outline: 0;
     cursor: pointer;
     transition: background 1s;
-    margin-left: 30%;
+    margin: 0;
 }
 
 
-.btn-field button.disable {
-    background-color: aliceblue;
-    color: #2c2f35;
-}
