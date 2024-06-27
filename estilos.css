@@ -312,12 +312,11 @@ p {
 }
 
 .platillos {
-    padding: 1.5%;
-    width: 80%;
+    padding: 1%;
+    width: 50%;
     margin-left: 10%;
     text-align: justify;
     border-radius: 15px;
-    margin-bottom: 2.5%;
     font-size: 150%;
 
 }
