@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: rgb(233, 233, 203)
+    background-color: rgb(231, 231, 181)
 }
 
 header {
@@ -46,10 +46,10 @@ header {
 #nombre {
     position: absolute;
     font-family: "Playwrite NG Modern", cursive;
-    top: 50px;
+    top: 25px;
     left: 40%;
     color: blueviolet;
-    font-size: 200%;
+    font-size: 300%;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -96,7 +96,6 @@ p {
     width: 150px;
     height: 150px;
     margin-top: 1%;
-
     image-rendering: initial;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgb(44, 124, 138);
@@ -263,7 +262,7 @@ p {
 .menu-v>li>a {
     display: block;
     padding: 15px;
-    color: rgb(10, 10, 10);
+    color: rgb(222, 124, 235);
     text-decoration: none;
 
 }
@@ -274,9 +273,10 @@ p {
     display: none;
     list-style: none;
     width: 130px;
-    background-color: rgb(190, 188, 188);
+    background-color: plum;
     text-align: center;
-    color: black;
+    color: rgb(222, 124, 235);
+    border-radius:10%;
 
 }
 
@@ -285,7 +285,8 @@ p {
 }
 
 .menu-v li:hover {
-    background-color: black;
+    background-color: rgb(222, 124, 235);
+    border-radius:10%;
 }
 
 .menu-v li a {
@@ -347,7 +348,7 @@ form {
     box-shadow: 0 0 20px rgba(233, 222, 222, 0.2);
     border-radius: 20px;
     text-align: center;
-    width: 800px;
+    width: 1000px;
     background-color: #dba7c4;
 }
 
@@ -410,10 +411,16 @@ input,textarea {
 
 }
 
-#cuadro {
+ #cuadro {
     width: 30%;
     height: 30%;
     align-items: center;
     text-align: center;
 
+}
+
+.boxtext {
+    width: 30%;
+    height: 30%;
+ 
 }
