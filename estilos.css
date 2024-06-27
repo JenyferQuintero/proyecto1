@@ -374,7 +374,7 @@ p {
     border: 0;
     outline: none;
     padding: 18px 15px;
-    color: azure;
+    color: rgb(16, 33, 187);
 }
 
 input::placeholder{
