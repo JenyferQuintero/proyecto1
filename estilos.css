@@ -341,6 +341,15 @@ p {
     margin-top: 10px;
 }
 
+#container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 .form-content {
     background-color: rgb(199, 140, 238);
     padding: 50px 60px 70px;
@@ -377,7 +386,7 @@ p {
     color: rgb(16, 33, 187);
 }
 
-input::placeholder{
+input::placeholder {
     color: azure;
 }
 
@@ -397,12 +406,13 @@ input::placeholder{
     outline: 0;
     cursor: pointer;
     transition: background 1s;
+    margin-left: 25%;
 }
 
 .envio {
     flex-basis: 48%;
     font-size: 16px;
-    background-color: rgb(149, 62, 231);
+    background-color: rgb(197, 113, 236);
     height: 40px;
     border-radius: 10px;
     border: 0;
@@ -412,4 +422,6 @@ input::placeholder{
     margin: 0;
 }
 
-
+#container {
+    display: none;
+}

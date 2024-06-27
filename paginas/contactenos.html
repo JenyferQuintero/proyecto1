@@ -38,9 +38,9 @@
 
     <div class="container">
         <div class="form-content">
-      
+
             <h4 class="tag"><span>FORMULARIO DE CONTACTO</span></h4>
-          
+
             <form>
 
                 <div class="input-group">
@@ -49,11 +49,11 @@
                         <input name="name" required type="text" id="campo" placeholder="Nombre">
                     </div>
                     <div class="input-field">
-                        <label for="email">Correo electrónico <span>*</span></label>
+                        <label for="email">Correo electrónico<span>*</span></label>
                         <input name="email" type="text" id="campo" required placeholder="correo@gmail.com">
                     </div>
                     <div class="input-field">
-                        <label for="telefono">Telefono <span>*</span></label>
+                        <label for="telefono">Telefono<span>*</span></label>
                         <input name="telefono" type="text" id="campo" required>
 
                     </div>
@@ -68,25 +68,34 @@
                     </div>
                 </div>
                 <div class="input-field">
-                    <label for="hora">Fecha de contacto <span>*</span></label>
-                    <input type="date" name="hora" id="campo">
+                    <label><button class="envio" onclick="this.innerHTML=Date()">Hora y Fecha</button></label>
+                             
+                    
                 </div>
+                <div class="btn-field">
+                    <button type="button" click="mostrarcontainer();" >Contactanos</button>
+                  </div>
+            </form>
+        </div>
 
-                <div class="input-field">
-                    <label for="hora">Hora de contacto <span>*</span></label>
-                    <input type="time" name="hora" id="campo">
-                </div>
+    </div>
+
+
+    <div id="container">
+        <div class="form-content">
+
+            <form>
                 <div class="input-group">
-                    <h4>Motivo de contacto<h4>
+                    <h4>Motivo de contacto ... <h4>
                             <div class="input-field">
-                                <textarea id="campo" name="message" cols="30" rows="10"></textarea>
+                                <textarea id="campo" name="message" cols="42" rows="10"></textarea>
                             </div>
                 </div>
 
                 <div class="input-group">
 
-                    <h4 class="tag"><span>COMO QUIERE QUE LO CONTACTEMOS</span></h4>
-                    
+                    <h4 class="tag"><span>Te podemos contartar por:</span></h4>
+
                     <div class="input-field">
                         <input type="radio" name="1" id="circulo">
                         <label for="1">Whatsapp</label>
@@ -100,9 +109,7 @@
                         <input type="radio" name="3" id="circulo">
                         <label for="3">Correo</label>
                     </div>
-
-                  
-
+                    <br>
                     <div class="input-field">
                         <input type="checkbox" name="check" id="cuadro">
                         <label for="check" id="cuadro">Terminos y condiciones</label>
@@ -111,11 +118,9 @@
 
                 <div class="btn-field">
                     <button id="registro" type="button">Registro</button>
-                    <button id="contacto" type="button" class="disable">Contacto</button>
-
                 </div>
-                <br>
-                <button class="envio" onclick="this.innerHTML=Date()">Que hora es?</button>
+                
+               
 
             </form>
         </div>
