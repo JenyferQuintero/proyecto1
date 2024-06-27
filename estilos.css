@@ -411,7 +411,9 @@ input,textarea {
 }
 
 #cuadro {
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
+    align-items: center;
+    text-align: center;
 
 }
