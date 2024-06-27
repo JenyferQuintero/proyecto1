@@ -8,7 +8,61 @@
     <title>Gastronomia </title>
     <script src="../js/jquery.easing.1.3.js"></script>
     <script src="../js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
 
+            var imagen = document.querySelectorAll("img")
+            for (var p = 0; p < imagen.length; p++) {
+                imagen[p].addEventListener("click", cambiarI)
+                imagen[p].addEventListener("mouseout", cambiarR)
+            }
+
+        })
+
+        function cambiarI(e) {
+            if (e.target == kimchi) {
+                $("#img1").attr("src", "../imagenes/kimchi1.jpg")
+            }
+            else if (e.target == kimchii) {
+                $("#img2").attr("src", "../imagenes/kimchi2.webp")
+            }
+            else if (e.target == jim) {
+                $("#img3").attr("src", "../imagenes/Jjimdak1.jpg")
+            }
+            else if (e.target == OIP) {
+                $("#img4").attr("src", "../imagenes/Jjimdak2.jpg")
+            }
+            else if (e.target == huevo) {
+                $("#img5").attr("src", "../imagenes/Bibimbap1.jpg")
+            }
+            else if (e.target == bibimbap) {
+                $("#img6").attr("src", "../imagenes/Bibimbap2.jpg")
+            }
+
+        }
+
+        function cambiarR(e) {
+            if (e.target == kimchi) {
+                $("#img1").attr("src", "../imagenes/kimchi.jpg")
+            }
+            else if (e.target == kimchii) {
+                $("#img2").attr("src", "../imagenes/kimchii.jfif")
+            }
+            else if (e.target == jim) {
+                $("#img3").attr("src", "../imagenes/jim.jfif")
+            }
+            else if (e.target == OIP) {
+                $("#img4").attr("src", "../imagenes/OIP.jfif")
+            }
+            else if (e.target == huevo) {
+                $("#img5").attr("src", "../imagenes/huevo.jpg")
+            }
+            else if (e.target == bibimbap) {
+                $("#img6").attr("src", "../imagenes/bibimbap-recipe.jpg")
+            }
+
+        }
+    </script>
 </head>
 
 <body>
@@ -36,9 +90,9 @@
         </nav>
         </div>
     </header>
-   
+
     <h2 class="titulo">Platillos típicos</h2>
-    
+
     <h4 class="platillos">Kimchi</h4>
     <p class="gastro">El kimchi es un plato coreano que se realiza a base de verduras fermentadas siendo su ingrediente
         principal el repollo o col china. Además, lleva otras verduras sazonadas y fermentadas. Estos vegetales son
@@ -47,8 +101,8 @@
         país y que viene acompañado de una gran historia y tradición.</p>
 
     <div class="cont">
-        <img id="logo4" src="../imagenes/kimchi.jpg">
-        <img id="logo4" src="../imagenes/kimchii.jfif">
+        <img class="logo4" src="../imagenes/kimchi.jpg" id="img1">
+        <img class="logo4" src="../imagenes/kimchii.jfif" d="img2">
     </div>
     <h4 class="platillos"> Jjimdak</h4>
 
@@ -56,10 +110,10 @@
         una variedad de jjim y se trata de un plato hervido a base de pollo, con verduras variadas que son marinadas en
         una salsa de soja coreana. Es considerado un plato altamente nutritivo debido a la proteína que es el pollo y a
         las verduras que se incluyen en la preparación.</p>
-    
+
     <div class="cont">
-        <img id="logo4" src="../imagenes/jim.jfif">
-        <img id="logo4" src="../imagenes/OIP.jfif">
+        <img class="logo4" src="../imagenes/jim.jfif" id="img3">
+        <img class="logo4" src="../imagenes/OIP.jfif" id="img4">
     </div>
 </body>
 
@@ -69,8 +123,8 @@
     con vegetales y carne, aunque también suele llevar huevos.</p>
 
 <div class="cont">
-    <img id="logo4" src="../imagenes/huevo.jpg">
-    <img id="logo4" src="../imagenes/bibimbap-recipe.jpg">
+    <img class="logo4" src="../imagenes/huevo.jpg" id="img5">
+    <img class="logo4" src="../imagenes/bibimbap-recipe.jpg" id="img6">
 </div>
 
 </body>
